@@ -1,0 +1,374 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support/FAQ</title>
+
+  <!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!--Main styles-->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--Adaptive styles-->
+<link rel="stylesheet" type="text/css" href="css/adaptive.css">
+<!--Swipe menu-->
+<link rel="stylesheet" type="text/css" href="css/pushy.css">
+<!--fonts-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<!--animation css-->
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!-- Slider Revolution -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+  <body class="inner_page innerpage" onload='initialize()'>
+  <div class="bg_parallax" id="inb">
+  <!--navigation swipe-->
+  <div class="menu-btn">&#9776;</div>
+  <nav class="pushy pushy-left">
+  <div class="profile">
+  <div class="avatar"><img src="img/avatar/ava_16.jpg" alt="#"><span>Beta</span></div>
+  <h3><a href="03.html">user_Name</a></h3>
+  <a href="#" class="log_btn">Logged in</a>
+  </div>
+  <ul class="side_menu">
+  <li><a href="#" onclick="history.back();"><i class="fa fa-angle-double-left"></i>Back</a></li>
+  <li><a href="#" class="animsition-link" onclick="history.forward();"><i class="fa fa-angle-double-right"></i>Forward</a></li>
+  <li><a href="menu_2_page.html"><i class="fa fa-list"></i>Get Started</a></li>
+  <!--<li><a href="04.html"><i class="fa fa-th"></i>Get premium</a></li>-->
+  <li id="t_o_s"><a href="#" onclick="t_o_s();"><i class="fa fa-book"></i>Terms of Service</a></li>
+  <li><a href="indexCopy.html"><i class="fa fa-home"></i>Home</a></li>
+  <li id="site_map"><a href="#" onclick="site_map();"><i class="fa fa-map"></i>site-map</a></li>
+  <li><a href="#" onclick="location.replace('signOut.html')"><i class="fa fa-sign-out"></i>Sign Out</a></li>
+  </ul>
+  </nav>
+
+  <!--add--
+  <div class="add_place none" id="pl">
+  <div class="place_form">
+  <i class="fa fa-times close_window" id="close"></i>
+  <h3>Add new place<span></span></h3>
+  <form>
+  <label>Place name:<input type="text"></label>
+  <label>latitude:<input type="text"></label>
+  <label>longitude:<input type="text"></label>
+  <label>Categori:
+  <select>
+  <option value="Cafe">Cafe</option>
+  <option value="Bar">Bar</option>
+  <option value="Cinema">Cinema</option>
+  <option value="Shop">Shop</option>
+  <option value="Club">Club</option>
+  <option value="Bank">Bank</option>
+  </select>
+  </label>
+  <a href="#" class="green_btn_header" id="add">Add</a>
+  </form>
+  </div>
+  </div>-->
+
+ 
+  <!--header-->
+  <div class="container-fluid header inner_head">
+  <div class="fixed_w">
+  <div class="row">
+  <div class="menu-btn">&#9776;<span id="quota"></span></div>
+  <div class="col-md-12"><a href="index.html" class="logo"><!--<img src="img/logoin.png" alt="Mycity"/>-->myCity</a>
+  <input type="text" class="search" placeholder="search support"><a href="#" class="green_btn_header" id="ad">Go</a></div>
+  </div>
+  </div>
+  </div>
+  <div class="container page_info">
+  <div class="col_md_12">
+  <h1>Support</h1>
+  <p class="lead">Read through to get information about our basic features and services. This deals with FAQ and everything you need to know about using this service. You can also get more information in our terms of service.</p>
+  <!--Blog category-->
+  <ul class="blog_cat">
+  <li><span>Category:</span></li>
+  <li><a href="#get_started" class="active">Getting Started</a></li>
+  <li><a href="#faq">FAQ</a></li>
+  <li><a href="#trouble">TroubleShooting</a></li>
+  <li><a href="#cover">Our coverage</a></li>
+  <li><a href="#">site map</a></li>
+  </ul>
+  </div>
+  </div>
+  <div class="container contant">
+  <div class="row cont">
+
+  <!--content-->
+  <div class="col-md-12 basic">
+
+  <div class="place_li_cont">
+
+
+  <!--Blog post style one-->
+  <div class="post p_style_one">
+  <div class="post_info">
+  <h2><a href="#" id="get_started">Getting started with myLite</a><span></span></h2>
+  <div class="p_text">
+  To use myLite, kindly follow this simple steps:
+          <ul>
+              <li>enter www.myLite.ng in the search engine of any of the <a href="#">supported browsers</a></li>
+              <ol>
+                  <li>Checking for power
+                      <li>This should bring you to our Home page. Enter your address in the search box and select your Neighbourhood from the dropdown. Click the search button and this should get your power status. From there you can continue to the rest of site</li>
+                      <li>You can alternatively set your location manually. We recommend this for location precision. To start, scroll down and hit the "Let's go there" button. Our geolocator will attempt to find you. From the result we get, you can accept and save or configure and permit us to remember in the future</li>
+                  </li>   
+                  <li>Our site is very easy to use. It is<a href="https://en.wikipedia.org/wiki/Representational_state_transfer">Restful</a> so you can simply navigate through by clicks. Look out for the pointers for indication on where to click. We provided pop-ups and links to associated information pages to give added information. The more you play around with the site, the easier it gets.</li>
+                  <li>The TroubleShooting section can provide tips on dealing with associated technical problems that can arise in the use of this service</li>
+              </ol>
+          </ul>
+  </div>
+  <div class="p_footer">
+  <!--<ul>
+  <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
+  <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
+  <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+  </ul>-->
+  </div>
+  </div>
+  </div>
+
+  <!--Blog post style two-->
+  <div class="post p_style_two">
+  <div class="post_info">
+  <div class="arrow"></div>
+  <h2 id="investigate"><a href="#" id="faq">FAQ</a><span></span></h2>
+  <div class="p_text">
+      <ul>
+          <li><h3>How Accurate are the information(s)?</h3>
+              <p>After we obtain our information, we first confirm before we publish. Our growing network of checkers is one way we achieve this. Anyone at anytime can provide information to us</p>
+          </li>
+          <li><h3>How efficient are the info, What happens if i get a false result?</h3>
+              <p>Our results are more likely to be true than not so it could play out in any of the following scenarios:
+                  <ol>
+                      <li>You say i have Light, but i dont
+                          <ul>
+                              <li>It could be your line, hence if you are using a 3-phase meter you should switch over to either of the other two phases</li>
+                              <li>There could be problem with the fuse in the pillar feeder. This is a technical matter and has nothing to do with you. You can notify your local electric authority with just one click. <a href="#">Click here</a></li>
+                              <li>Please note that we are not responsnible for your power supply and outage cannot be a part-player in any issues between you and your power provider(s). Refer to our <a href="#">disclamer</a> for details on this</li>
+                          </ul>
+                      </li>
+                      <li>You say i dont have Light, but i do
+                          <ul>
+                              <li>Naija no go carri last<i class="fa fa-frown-o"></i>. Help us improve by reporting this issue. Open then navigation menu and select the 'complaint button', we will investigate this problem and you can even get +1 credit for being a good Nigerian.</li>
+                          </ul>
+                      </li>
+                      <li>You say otherwise, but i  have low-current
+                          <ul>
+                              <li>Go ahead and report this problem. <aherf="#".Click here</a></li>
+                          </ul>
+                      </li>
+                  </ol>
+              </p>
+          </li>
+          <li><h3>What are credits/How can i grow my credits?</h3>
+              <p>You are given +10 creidts after signing up for this service. You can use these Credits to access all the features of this site. We use 1 credit whenever you relate with any of our <a href="#">chargeable features</a> at one Credit per Feature rate (1 c/f). The good news is that you can grow your credits to any amount you want. read on<br>Whenever you tell someone about ue, we earn a loyalty reward of +1 credit. Telling could mean <a href="#">word of mouth</a> (this is +2 credits), posting/sharing on any of the integrated social sites. This can be done easily from the <a href="#">Welcome page</a></p>
+          </li>
+      </ul>
+  </div>
+  <div class="p_footer">
+  <!--<ul>
+  <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
+  <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
+  <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+  </ul>-->
+  </div>
+  </div>
+  </div>
+
+  <!--Blog post style vdk-->
+  <div class="post p_style_one vdk">
+  <div class="post_info">
+  <h2><a href="#" id="trouble">TroubleShooting</a><span></span></h2>
+  <div class="p_text">
+  Accessing yuur location might be one of those problems that can arise. Follow this simple steps to reset your location settings. (Video demo to come soon)
+      <ul>
+          <li>
+            <h3>Browser Location settings</h3>
+            <p>myLite is supported on all major browsers (Chrome, Safari, Firefox, IE8 and above. To manipulate the location services for the following, you can:
+            <ul>
+                <li>For Google Chrome : 
+                    <ol>
+                       <li>In the browser navigation button, click SETTINGS</li>
+                       <li>go to ADVANCED SETTINGS > PRIVACY > CONTENT SETTINGS</li>
+                       <li>scroll to LOCATIONS and enable as appropriate</li>
+                       <li>return to the site and allow us get your location. Please be sure that <a href="#">Javascript is enabled</a> on your device(s)</li>
+                    </ol>
+                </li>
+                <li>For Safari
+                    <ol>
+                       <li>click the SETTINGS dropdown at the far right corner of the browser Toolbar</li>
+                       <li>Go to PREFERENCES and then to PRIVACY</li>
+                      <li>enable Location services by choosing the appropriate option. Please be sure that <a href="#">Javascript is enabled</a> on your device(s)</li>
+                    </ol>
+                </li>
+                <li>For Mozilla Firefox
+                    <ol>
+                       <li>click the Menu button button at the far right corner of the browser Toolbar</li>
+                       <li>select privacy from the navigation menu bar at the side  </li>
+                    </ol>
+                </li>
+                <li></li>
+            </ul>
+            </p>
+          </li>
+          <li>
+             <h3>Mobile Devices</h3>
+             <p>We strongly suggest that you consult the accompanying operation Manual of your device. If not, here is an exhaustive article that can prove useful. <a href="#">Read</a></p>
+          </li>
+      </ul>
+  </div>
+  <div class="p_footer">
+  <!--<ul>
+  <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
+  <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
+  <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+  </ul>-->
+  </div>
+  </div>
+  </div>
+
+  <!--Blog post style three-->
+  <div class="post p_style_three">
+  <div class="post_info">
+  <h2><a href="#" id="cover">Our Coverage</a><span></span></h2>
+  <div class="p_text" id="coverage_p_text">  
+  </div>
+  <div  id="patriach">
+  <div class="post_info">
+  <h2><a href="#">Making a complaint</a><span></span></h2>
+  <div class="p_text">
+  Should you wish to report a problem with any aspect of our service, please read the following carefully to learn tips for troubleshooting possible problems and bug reporting.
+  <ul>
+      <li>Resolving your address
+        <ul>
+          <li>our site is particularly dependent on third party api for ease of operation. For exmaple we utilize several Google maps api namely: Google geolocation api, google places api, google autocomplelte api, google geocoder api, and google reverse geocoder api amongst others. In essence, our application could at some point be dependent on the functionality of the servers hosting these api's. We try as much as possible to alert you whenever any problem occur. We've also allocted error codes to help you in identifying and possibly resolving any issue yourself. In the event that you cannot tackle it on your own, kindly report/contact us and our technical team will be more than willing to offer propfessional assistance. Here are some possile error codes:
+          <ol>
+            <li>Error 101 : Your location was not found</li>
+            <li>Error 419: Your location does not exist</li>
+            <li>Error 411: "Ma bad", we couodnt retrieve your information at this time</li>
+          </ol>    
+          </li>
+        </ul>  
+  </ul>
+  </div>
+  </div>
+  <!-- problem here cos these lines of code dont nest properly
+  <div class="post p_style_two">
+  <div class="post_info">
+      <div class="arrow">
+      <h2><a href="#">Contacting us</a><span></span></h2>
+      <div class="p_text">
+      If however, you feel the need to contact us directly, we will be more than happy to entertain your questions and offer telephone assistance/guide to resolve your problem. We have dedicated staff always eager to hear from you and are present 24/7 to attend your nrequest. Please refer to the <strong>contact us</strong> tab for telephone numbers, email addresses and other link to our technical team. Please remember to get all necessary information that can aid our team provide you with the necessary help. Also rememeber that all calls are not TOLL FREE yet and so we will try and keep conversation short and simple all the time
+      </div>
+      </div>
+  </div>
+  </div>-->
+  </div>
+  <div class="p_footer">
+      <!--<ul>
+          <li><a href="08.html"><i class="fa fa-tags"></i>Rest</a></li>
+          <li><a href="08.html"><i class="fa fa-comments"></i>193 comments</a></li>
+          <li><a href="08.html"><i class="fa fa-calendar"></i>23.01.2014</a></li>
+      </ul>-->
+  </div>
+  </div>
+  </div>
+
+  </div>
+  <!--morebtn-->
+  <a class="more_btn" onclick="show_contents()">Load more</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!--
+#################################
+- SCRIPT FILES -
+#################################
+-->
+<!--Google maps API linl-->
+<script>
+var quota = document.getElementById('quota'),
+coverage = document.getElementById("coverage_p_text"),
+w = "Rome wasn't built in a day. We have plans to expand our operations to more cities. Click the link below to see a map of locations we presently cover. To view the places we presently cover, click on the navigation menu the select Our Coverage areas. The map shows you places within our present scope of service and locational information of every substation within. Hover to see peculiar details for every substation."
+function initialize() {
+  quota.textContent = '+' + window.localStorage.length;
+  coverage.textContent = w.substring(0, 250) + "......";
+  $(document.getElementById('patriach')).find('*').hide();
+}
+
+function show_contents () {
+  "use strict"
+  coverage.textContent = w.substring('*');
+  $(document.getElementById('patriach')).find('*').show(); 
+  $(document.getElementById('patriach')).addClass("post p_style_one vdk");
+}
+</script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!--scroll animate block-->
+<script src="js/wow.min.js"></script>
+<!--Other main scripts-->
+<script src="js/all_scr.js"></script>
+<!--Bootstrap js-->  
+<script src="js/bootstrap.min.js"></script>
+<!--Map js-
+<script type="text/javascript" src="js/map_visits.js"></script>
+<script type="text/javascript" src="js/infobox.js"></script>
+<!--Slider Revolution
+<script type="text/javascript" src="js/main_setting.js"></script>-->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!--Parallax-->
+<script type="text/javascript" src="js/jquery.parallax-0.2-min.js"></script>
+
+  <script type="text/javascript">
+  "use strict";
+  $('#inb').parallax({
+  'elements': [
+  {
+  'selector': '#inb',
+  'properties': {
+  'x': {
+  'background-position-x': {
+  'initial': 0,
+  'multiplier': 0.03,
+  'invert': true
+  }
+  },
+  'y': {
+  'background-position-y': {
+  'initial': 30,
+  'multiplier': 0.03,
+  'invert': true
+  }
+  }
+  }
+  }
+  ]
+  });
+  </script>
+  <script>
+  function t_o_s () { 
+   document.getElementById('t_o_s').textContent = "This page is under construction";
+ }
+ function site_map () {
+   document.getElementById('site_map').textContent = "This page is under construction";
+   }
+
+  </script>
+
+  </body>
+  </html>
