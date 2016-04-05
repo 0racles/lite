@@ -1,4 +1,5 @@
 define(["jquery", "parallax", "all_scr", "wow", "bootstrap"], function ($, jQuery) {
+alert("hell no");
 var 
 body = document.body,
 carri_go_button = document.querySelectorAll(".carri_go")[0],
