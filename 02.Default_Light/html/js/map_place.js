@@ -4,7 +4,7 @@ function initialize() {
     //Map parametrs
     var mapOptions_place = {
         zoom: 10,
-        center: new google.maps.LatLng(41.154, -73.328),
+        center: new google.maps.LatLng(6.5833, 3.7500),   //41.154, -73.328
         mapTypeId: google.maps.MapTypeId.ROADMAP,
 
         mapTypeControl: false,
@@ -25,15 +25,17 @@ function initialize() {
         scaleControlOptions: {
             position: google.maps.ControlPosition.TOP_LEFT
         },
-        streetViewControl: false,
+        streetViewControl: true,
         streetViewControlOptions: {
             position: google.maps.ControlPosition.LEFT_TOP
         },
-                styles: [{"featureType":"poi","stylers":[{"visibility":"off"}]},{"stylers":[{"saturation":-70},{"lightness":37},{"gamma":1.15}]},{"elementType":"labels","stylers":[{"gamma":0.26},{"visibility":"off"}]},{"featureType":"road","stylers":[{"lightness":0},{"saturation":0},{"hue":"#ffffff"},{"gamma":0}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"lightness":50},{"saturation":0},{"hue":"#ffffff"}]},{"featureType":"administrative.province","stylers":[{"visibility":"on"},{"lightness":-50}]},{"featureType":"administrative.province","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"labels.text","stylers":[{"lightness":20}]}]
+                styles: [{"featureType":"poi","stylers":[{"visibility":"off"}]},{"stylers":[{"saturation":-70},{"lightness":37},{"gamma":1.15}]},{"elementType":"labels","stylers":[{"gamma":0.26},{"visibility":"off"}]},{"featureType":"road","stylers":[{"lightness":0},{"saturation":0},{"hue":"#ffffff"},{"gamma":0}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"lightness":50},{"saturation":0},{"hue":"#ffffff"}]},{"featureType":"administrative.province","stylers":[{"visibility":"on"},{"lightness":-50}]},{"featureType":"administrative.province","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"labels.text","stylers":[{"lightness":20}]}] 
             };
 
+
+
     //map
-    var map_place = new google.maps.Map(document.getElementById("map_place"), mapOptions_place);
+    var map_place = new google.maps.Map(document.getElementById("map_place"), newLocation); //mapOptions_place
 
     //category
     var Bank_place = 'img/icon/Bank.png';
@@ -48,7 +50,7 @@ function initialize() {
     var Sport_place = 'img/icon/Sport.png';
 
     //positions
-    var point_place = new google.maps.LatLng(41.154, -73.328);
+    var point_place = new google.maps.LatLng(6.5833, 3.7500);
 
     //markers
     var marker_place = className = 'Cafe';
